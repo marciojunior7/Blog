@@ -297,3 +297,88 @@ footer {
     color: #55acee; /* Cor de destaque para o hover */
 }
 
+
+/* .headerp{
+	background-color: #40BD00;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+} */
+.headerp {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+  }
+  
+  .btn-back {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .header-titulop {
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	flex-grow: 1; /* Para ocupar o espaço restante no cabeçalho */
+  }
+
+.containerp {
+	margin: 100px auto 20px auto;
+	position: relative;
+	max-width: 600px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .containerp img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+	margin-bottom: 20px;
+  }
+  
+  .containerp h1 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+  }
+  
+  .containerp p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #666;
+	padding-bottom: 20px;
+  }
+
+  .social-buttons {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+  }
+  
+  .social-buttons button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin-right: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .social-buttons button:hover {
+	background-color: #0056b3;
+  }
